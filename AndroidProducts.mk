@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Z01R.mk
+    $(LOCAL_DIR)/aicp_Z01R.mk
 
 COMMON_LUNCH_CHOICES := \
     aicp_Z01R-user \
