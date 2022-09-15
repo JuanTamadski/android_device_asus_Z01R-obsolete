@@ -18,6 +18,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_Z01R.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_Z01R-user \
-    lineage_Z01R-userdebug \
-    lineage_Z01R-eng
+    aicp_Z01R-user \
+    aicp_Z01R-userdebug \
+    aicp_Z01R-eng
