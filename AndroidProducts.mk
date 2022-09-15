@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_Z01R.mk
+    $(LOCAL_DIR)/cherish_Z01R.mk
 
 COMMON_LUNCH_CHOICES := \
     cherish_Z01R-user \
