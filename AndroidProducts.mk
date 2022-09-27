@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/soark_Z01R.mk
+    $(LOCAL_DIR)/spark_Z01R.mk
 
 COMMON_LUNCH_CHOICES := \
     spark_Z01R-user \
