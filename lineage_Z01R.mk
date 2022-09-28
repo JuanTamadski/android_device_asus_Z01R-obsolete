@@ -52,20 +52,6 @@ TARGET_SUPPORTS_QUICK_TAP := true
 # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
-# Memory properties
-# Tune these properties according to device perfconfigstore.xml(if available)/device capabilities.
-# These props are overridable
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.sys.fw.bg_apps_limit?=48 \
-    persist.sys.fw.use_trim_settings?=true \
-    persist.sys.fw.empty_app_percent?=50 \
-    persist.sys.fw.trim_empty_percent?=100 \
-    persist.sys.fw.trim_cache_percent?=100 \
-    persist.sys.fw.trim_enable_memory?=2147483648 \
-    persist.sys.fw.bservice_age?=120000 \
-    persist.sys.fw.bservice_limit?=6 \
-    persist.sys.fw.bservice_enable?=true 
-
 TARGET_USE_PIXEL_CHARGER := true
 
 PRODUCT_BRAND := asus
