@@ -26,10 +26,6 @@ $(call inherit-product, device/asus/Z01R/device.mk)
 $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 
-WITH_GAPPS := true
-TARGET_USE_PIXEL_CHARGER := true
-TARGET_BOOT_ANIMATION_RES := 1080
-
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := Z01R
 PRODUCT_MANUFACTURER := asus
@@ -47,3 +43,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="Z01R-user 8.0.0 OPR1.170623.032 WW_user_80.30.96.221_20181018 release-keys"
 
 BUILD_FINGERPRINT := asus/WW_Z01RD/ASUS_Z01R_1:8.0.0/OPR1.170623.032/WW_80.30.96.221_20181018:user/release-keys
+
+SPARK_BUILD_TYPE := UNOFFICIAL
+TARGET_USES_BLUR := true
+WITH_FOD_ANIMATIONS := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
