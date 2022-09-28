@@ -1,4 +1,4 @@
-7#
+#
 # Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,4 +20,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     spark_Z01R-user \
     spark_Z01R-userdebug \
-    spark_Z01R-eng \
+    spark_Z01R-eng 
