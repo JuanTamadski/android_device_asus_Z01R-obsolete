@@ -20,4 +20,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     spark_Z01R-user \
     spark_Z01R-userdebug \
-    spark-eng \
+    spark-Z01R-eng \
