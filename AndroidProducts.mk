@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_Z01R.mk
+    $(LOCAL_DIR)/aospa_Z01R.mk
 
 COMMON_LUNCH_CHOICES := \
-    aicp_Z01R-user \
-    aicp_Z01R-userdebug \
-    aicp-eng
+    aospa_Z01R-user \
+    aospa_Z01R-userdebug \
+    aospa-eng
