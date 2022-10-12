@@ -20,4 +20,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     cipher_Z01R-user \
     cipher_Z01R-userdebug \
-    cipher-Z01R-eng
+    cipher_Z01R-eng
