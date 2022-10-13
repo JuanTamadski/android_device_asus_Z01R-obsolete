@@ -29,6 +29,8 @@ $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 WITH_GAPPS := true
 TARGET_USE_PIXEL_CHARGER := true
 TARGET_BOOT_ANIMATION_RES := 1080
+BLAZE_MAINTAINER := JuanTamadski
+TARGET_FACE_UNLOCK_SUPPORTED := true
 
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := Z01R
