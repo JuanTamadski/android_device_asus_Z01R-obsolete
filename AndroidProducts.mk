@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cipher_Z01R.mk
+    $(LOCAL_DIR)/blaze_Z01R.mk
 
 COMMON_LUNCH_CHOICES := \
-    cipher_Z01R-user \
-    cipher_Z01R-userdebug \
-    cipher_Z01R-eng
+    blaze_Z01R-user \
+    blaze_Z01R-userdebug \
+    blaze_Z01R-eng
