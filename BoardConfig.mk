@@ -57,7 +57,8 @@ BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/asus/sdm845
 TARGET_KERNEL_CONFIG := Z01R_defconfig
-TARGET_KERNEL_CLANG_COMPILE := false
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-cosmic
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm845
