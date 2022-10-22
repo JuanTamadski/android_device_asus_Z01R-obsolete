@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_Z01R.mk
+    $(LOCAL_DIR)/p404_Z01R.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_Z01R-user \
-    spark_Z01R-userdebug \
-    spark_Z01R-eng 
+    p404_Z01R-user \
+    p404_Z01R-userdebug \
+    p404_Z01R-eng 
